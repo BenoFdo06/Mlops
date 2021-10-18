@@ -27,7 +27,7 @@ classifier=pickle.load(pickle_in)
 
 @app.route('/')
 def welcome():
-    return "Welcome All"
+    return "Welcome All "
 
 @app.route('/predict',methods=["Get"])
 def predict_note_authentication():
