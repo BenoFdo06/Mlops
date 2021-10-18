@@ -1,2 +1,0 @@
-# Mlops
-Mlops POC repo
