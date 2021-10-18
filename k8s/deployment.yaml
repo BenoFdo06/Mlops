@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: MlOps
+  name: mlops
 spec:
   replicas: 2
   selector:
@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: cv-app
-        image: gcr.io/windy-collector-329105/MlOps:v1
+        image: gcr.io/windy-collector-329105/mlops:v1
         ports:
         - containerPort: 5000
